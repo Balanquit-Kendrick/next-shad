@@ -2,7 +2,7 @@ import { ModeToggle } from "@/components/ui/toggle-mode";
 
 export function Nav(){
     return (
-        <div className="py-16 flex flex-col items-end pe-20">
+        <div className="max-w-[1200px] mx-auto h-[80px] bg-black flex flex-col items-end justify-center  ">
             <ModeToggle/>
         </div>
     );
